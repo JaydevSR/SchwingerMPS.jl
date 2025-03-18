@@ -1,5 +1,8 @@
 module SchwingerMPS
 
-greet() = print("Hello World!")
+using ITensors
+using ITensorMPS
+
+include("hamiltonian.jl")
 
 end # module SchwingerMPS
